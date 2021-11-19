@@ -8,6 +8,7 @@ class Blake_WorkLog
     Added a few undeeded things (5 minutes)
     Added Scaffolding test area for player (5 minutes)
     Just added and rescaled the cursed DK (1 minute)
+    Quick Broken Bridge animation (2 minutes)
 
     Total Time: 
     */
