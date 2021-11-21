@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44255933, g: 0.49165165, b: 0.5714815, a: 1}
+  m_IndirectSpecularColor: {r: 0.442559, g: 0.49165082, b: 0.57148063, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -889,6 +889,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1495391767181470699, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
+      propertyPath: m_Constraints
+      value: 114
+      objectReference: {fileID: 0}
     - target: {fileID: 1941564919776895821, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.37
@@ -1015,15 +1019,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7978974574271755506, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.62667
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7978974574271755506, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.62667
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7978974574271755506, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.62667
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7978974574271755506, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1116,7 +1120,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571898483}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4225405292a89ce4cb478ebf149f7197, type: 2}
   m_CullingMode: 0
@@ -1127,6 +1131,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &571898485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571898483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 003dcc623a3d9ef498c9a0985ed9dc1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DKbody: {fileID: 571898486}
+  speed: 8
+  jump: 300
+  rotateSpeed: 20
+--- !u!54 &571898486 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 1495391767181470699, guid: 57443af8fcc602d42ac4584715deb042, type: 3}
+  m_PrefabInstance: {fileID: 571898482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &597480049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1562,13 +1587,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.18553506, y: -0, z: -0, w: 0.98263764}
-  m_LocalPosition: {x: 1.91, y: -1.98, z: -6.24}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 22.7, y: -0.11, z: 2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -21.385, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &967103128
 PrefabInstance:
   m_ObjectHideFlags: 0
