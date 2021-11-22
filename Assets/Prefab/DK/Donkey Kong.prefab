@@ -3072,6 +3072,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7978974574271755506}
   - component: {fileID: 1495391767181470699}
+  - component: {fileID: 8364204377583712438}
+  - component: {fileID: 1652309780218823841}
   m_Layer: 0
   m_Name: Donkey Kong
   m_TagString: Untagged
@@ -3115,6 +3117,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &8364204377583712438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019270112109356498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 5, z: 4.5}
+  m_Center: {x: 0, y: 2.5, z: 0.75}
+--- !u!114 &1652309780218823841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019270112109356498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 003dcc623a3d9ef498c9a0985ed9dc1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DKbody: {fileID: 1495391767181470699}
+  speed: 20
+  jumpHeight: 700
+  rotateSpeed: 30
 --- !u!1 &8161970527938281939
 GameObject:
   m_ObjectHideFlags: 0
