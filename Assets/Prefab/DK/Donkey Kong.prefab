@@ -3143,8 +3143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DKbody: {fileID: 1495391767181470699}
-  speed: 8
-  jump: 300
+  speed: 20
+  jumpHeight: 700
   rotateSpeed: 30
 --- !u!1 &8161970527938281939
 GameObject:
