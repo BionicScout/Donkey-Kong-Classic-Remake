@@ -13,8 +13,9 @@ class Blake_WorkLog
     Added Background stuff and 2 scripts (2 hours)
     Added Toad movement (20 minutes)
     Added Game Over Screen (10 minutes)
+    Fixed Code (2 minutes)
 
 
-    Total Time: 3 hours 8 minutes
+    Total Time: 3 hours 8 minutes (Need to fix)
     */ 
 }
