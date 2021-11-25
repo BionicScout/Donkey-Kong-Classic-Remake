@@ -2,10 +2,15 @@ class Sam_WorkLog
 {
     /*
     Sam's Work
-    -Main Menu
-    -Started level 1
-    -Game Over
+    -Main Menu : 1hr
+    -Started level 1 :1hr
+    -Game Over UI :1hr
+    -Updated level 1 :1.5hr
+    -level 1 UI quit button:1.5hr
+    -Added Endpoint/GameObjective UI: 0.5hr
+    -Added Peach Objective(A Way To Complete The Level) :1hr
+    -Once level is completed game loops back to main menu :1.5hr
 
-    Total Time: 
+    Total Time: 9hr
     */
 }
