@@ -10,28 +10,30 @@ public class Toad : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Vector3 particleSpawnPoint = other.transform.position;
-        Instantiate(explosionEffect, particleSpawnPoint, Quaternion.identity);
+        if (other.gameObject.tag == "DK") {
+            Vector3 particleSpawnPoint = other.transform.position;
+            Instantiate(explosionEffect, particleSpawnPoint, Quaternion.identity);
 
-        Camera.main.transform.SetParent(null);
+            Camera.main.transform.SetParent(null);
 
-        //Destroy() is the base function for destroying components and objects in a scene
-        //You need to specify that you are reffering to a game object.
-        //Destroy(this) for instance, will destroy the component, not the object.
-        //Destroy(this.gameObject) will destroy the object where this component is.
-        Destroy(other.gameObject);
+            //Destroy() is the base function for destroying components and objects in a scene
+            //You need to specify that you are reffering to a game object.
+            //Destroy(this) for instance, will destroy the component, not the object.
+            //Destroy(this.gameObject) will destroy the object where this component is.
+            Destroy(other.gameObject);
 
-        //pause the game
-        Time.timeScale = 0.0f;
+            //pause the game
+            Time.timeScale = 0.0f;
 
-        //Shows the button when the game is paused.
-        gameOverCanvas.SetActive(true);
+            //Shows the button when the game is paused.
+            gameOverCanvas.SetActive(true);
 
-        //When ispaused is false, this line will set it to true
-        isGameOver = true;
+            //When ispaused is false, this line will set it to true
+            isGameOver = true;
 
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
 
     }
 }
