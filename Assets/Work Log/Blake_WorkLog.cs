@@ -10,6 +10,10 @@ class Blake_WorkLog
     Quick Broken Bridge animation (2 minutes)
     Created Spear, Mario and Peach modles (1 hour 40 minutes)
     Created Barrel modles and effects (30 minutes)
+    Added Background stuff and 2 scripts (2 hours)
+    Added Toad movement (20 minutes)
+    Added Game Over Screen (10 minutes)
+
 
     Total Time: 3 hours 8 minutes
     */ 
