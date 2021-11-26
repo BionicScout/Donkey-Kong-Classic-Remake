@@ -22,8 +22,7 @@ public class Toad : MonoBehaviour
             //Destroy(this.gameObject) will destroy the object where this component is.
             Destroy(other.gameObject);
 
-            //pause the game
-            Time.timeScale = 0.0f;
+            
 
             //Shows the button when the game is paused.
             gameOverCanvas.SetActive(true);

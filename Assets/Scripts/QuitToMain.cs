@@ -11,5 +11,8 @@ public class QuitToMain : MonoBehaviour
         Debug.Log("QuitToMain");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-  
+    public void restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+    }
 }
