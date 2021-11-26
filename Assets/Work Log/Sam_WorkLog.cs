@@ -10,7 +10,9 @@ class Sam_WorkLog
     -Added Endpoint/GameObjective UI: 0.5hr
     -Added Peach Objective(A Way To Complete The Level) :1hr
     -Once level is completed game loops back to main menu :1.5hr
+    -Added Game Manager: 0.5hr
+    -Added Restart and updated game over canvas: 1hr
 
-    Total Time: 9hr
+    Total Time: 10.5hr
     */
 }
