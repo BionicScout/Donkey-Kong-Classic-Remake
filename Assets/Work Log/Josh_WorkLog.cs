@@ -3,6 +3,6 @@ class Josh_WorkLog
     /*
     Josh's Work
 
-    Total Time: 
+    Total Time: 0 hours
     */
 }

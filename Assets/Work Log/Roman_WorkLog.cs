@@ -9,7 +9,9 @@ class Roman_WorkLog
     Creating Toad - 1 Hour
     Create Toad Walking Animation - 30 minute
     Create Walking Toad Script - 2 hours
+    Created Music - 1 hour
+    Added Music and fixed toads on Level 1 - 30 minutes
 
-    Total Time: 11 hours
+    Total Time: 12.5 hours
     */
 }

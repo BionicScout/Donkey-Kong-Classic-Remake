@@ -1331,7 +1331,7 @@ PrefabInstance:
     - target: {fileID: 663668653553757444, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
       propertyPath: explosionEffect
       value: 
-      objectReference: {fileID: 771545645}
+      objectReference: {fileID: 2042997938700431047, guid: 6929808835d925348824949c32f6bbcd, type: 3}
     - target: {fileID: 885769784141060839, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -3960,7 +3960,7 @@ PrefabInstance:
     - target: {fileID: 663668653553757444, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
       propertyPath: explosionEffect
       value: 
-      objectReference: {fileID: 771545645}
+      objectReference: {fileID: 2042997938700431047, guid: 6929808835d925348824949c32f6bbcd, type: 3}
     - target: {fileID: 885769784141060839, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4506,6 +4506,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663668653553757444, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 724036720}
+    - target: {fileID: 663668653553757444, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 2042997938700431047, guid: 6929808835d925348824949c32f6bbcd, type: 3}
     - target: {fileID: 885769784141060839, guid: c5c21ae6c3a3a1a4282dd026862ba1c7, type: 3}
       propertyPath: m_IsTrigger
       value: 1
