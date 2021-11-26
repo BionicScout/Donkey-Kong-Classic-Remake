@@ -16,6 +16,6 @@ class Blake_WorkLog
     Fixed Code (2 minutes)
 
 
-    Total Time: 3 hours 8 minutes (Need to fix)
+    Total Time: 6 Hours and 20 minutes (fixed)
     */ 
 }
